@@ -78,11 +78,10 @@ cd nodejs
 npm install
 npm approve-scripts onnxruntime-node
 npm install
+npm start
 
 cd /d F:\Supertonic3\supertonic
 python app.py
-
-npm start
 
 
 ## Quick Start
