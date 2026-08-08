@@ -82,8 +82,6 @@ npm start
 
 cd /d F:\Supertonic3\supertonic
 python app.py
-
-
 ## Quick Start
 
 Install the Python SDK and generate speech immediately. On the first run, Supertonic downloads the model assets from Hugging Face automatically.
