@@ -59,6 +59,31 @@ Arabic (`ar`), Bulgarian (`bg`), Croatian (`hr`), Czech (`cs`), Danish (`da`), D
 - **2025.11.24** - Added Flutter SDK support with macOS compatibility
 
 ---
+## Windows Installation
+
+cd /d F:\Supertonic3
+git clone https://github.com/supertone-inc/supertonic.git
+cd supertonic
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install supertonic
+pip install gradio
+
+git lfs install
+git clone https://huggingface.co/Supertone/supertonic-3 assets
+
+cd nodejs
+npm install
+npm approve-scripts onnxruntime-node
+npm install
+
+cd /d F:\Supertonic3\supertonic
+python app.py
+
+npm start
+
 
 ## Quick Start
 
